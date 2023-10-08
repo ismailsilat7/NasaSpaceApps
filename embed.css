@@ -154,7 +154,7 @@ h1 {
 }
 
 .intro:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0);
   transform: scale(1.05);
 }
 
