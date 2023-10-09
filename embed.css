@@ -3,7 +3,7 @@ html {
 }
 
 .navbar {
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.05);
   color: #ffffff;
   padding: 15px;
   text-align: center;
@@ -13,8 +13,7 @@ html {
   z-index: 1000;
   font-family: 'Montserrat', sans-serif;
   display: flex;
-  justify-content: space-around;
-  font-size: 20px;
+  justify-content: center;
 }
 
 .navbar a {
@@ -22,10 +21,6 @@ html {
   margin: 0 15px;
   text-decoration: none;
   transition: all 0.3s ease;
-}
-
-.links > a {
-  font-size: 16px;
 }
 
 .navbar a:hover {
