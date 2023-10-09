@@ -5,6 +5,13 @@
   padding: 0;
   display: flex;
 }
+
+#essay {
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
 body {
   margin: 0; 
   padding: 0; 
@@ -36,9 +43,20 @@ section h1 {
   width: 50%;
   opacity: 0; /* Initially hide the about-box */
   transition: opacity 5s, transform 5s; /* Apply smooth transitions */
+}
 
+#essay-box {
+  width: 80%;
+}
 
-  
+#essay-box > h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+#essay-box > p {
+  font-size: 18px;
 }
 
 .about-box h2 {
@@ -164,36 +182,6 @@ h1 {
   background-image: url('./images/stars.png');
   background-size: cover;
   background-attachment: fixed;
-}
-
-
-.socials > a {
-  color: white;
-}
-
-.instagram:hover {
-  color: #962fbf;
-}
-
-.discord:hover {
-  color: #5865F2;
-}
-
-.github:hover {
-  color: #1c1e20;
-}
-
-.facebook:hover {
-  color : #415fa1 ; 
-}
-
-.socials {
-  display: flex;
-  justify-content: space-around;
-}
-
-.socials > a {
-  margin-right: 10px;
 }
 
 .name > h3 {
