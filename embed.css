@@ -268,7 +268,7 @@ h1 {
   position: relative;
   width: 100%;
   min-height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background overlay */
+  background: rgba(0, 0, 0, 0.01); /* Add a semi-transparent background overlay */
 }
 
 video {
